@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="GET" novalidate>
+        <fieldset>
+            <legend>Login Details</legend>
+        First Name: <input type="text" name="fname" value="Susmita" readonly><br>
+        Last Name: <input type="text" name="lname" value="Sen" disabled><br>
+        
+        Password: <input type="password" name="pod" required pattern="sus111"><br>
+    </fieldset>
+        Address: <input type="text" name="Address" minlength="20" maxlength="200"><br>
+        Story: <textarea name="story" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="submit">
+        <input type="reset" name="" id=""><br>
+        <input type="radio" name="gender" value="male">MALE
+        <input type="radio" name="gender" value="female">FEMALE
+        <br>
+        <input type="checkbox" name="lang" value="java">Java<br>     
+       <input type="checkbox" name="lang" value="SQL">SQL<br>
+       <input type="checkbox" name="lang" value="WebTech">WEBTECH<br>
+        
+       <!--dropdown-->
+     <select name=" Cartoons"  size="2" id="">
+      <option value="tom and jerry">Tom and Jerry</option>
+      <option value="chota bheem">Chota Bheem</option>
+      <option value="shinchan">Shinchan</option>
+      <option value="ninja hatori">Ninja Hatori</option>
+     <br>
+      <input type="button" value="click"><br>
+      <input type="file" name="upload a file" value="Choose File">
+
+     </select>
+
+     <input list="languages">
+     <datalist id ="languages">
+     <option value=" Bengali">Bengali</option>
+     <option value=" Hindi">Hindi</option>
+     <option value=" English">English</option>
+     <option value=" Kanada">Kanada</option>
+     </datalist>
+     <input type="datetime-local">
+     <audio controls>
+         <source src="./Kalimba.mp3" type="audio/mp3">
+     </audio>
+     <video controls width="500" height="500"> 
+            <source src="./Can we convert behaviour of main thread from Non Daemon to Daemon - Mr.Srinivas.mp4" type="video/mp4">
+        </video>
+    </form>
+</body>
+</html>
